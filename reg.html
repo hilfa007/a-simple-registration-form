@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <div class="form">
+      <div class="inputfield">
+        <div class="card "   >
+          <img src="img.jpg" alt="" style="float:right; width:120px;height:140px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;border-radius: 5px;">
+          <p class="title"></p>
+          <br><input type="file" name="userphoto" id="imgfile" />
+          <a href="#"><input type="button" class="btn btn-primary " value="Upload Image" name="submit" onclick="uploadimg()" id="submit" style="width:150px" /><i class="fa fa-dribbble"></i></a>
+        </div>
+     </div>
+       <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" class="input" placeholder="first name">
+       </div>  
+        <div class="inputfield">
+          <label>Last Name</label>
+          <input type="text" class="input" placeholder="last name">
+       </div>  
+       <div class="inputfield">
+          <label>Contact</label>
+          <input type="password" class="input" placeholder="contact number">
+       </div>  
+      <div class="inputfield">
+          <label>Email</label>
+          <input type="password" class="input" placeholder="example@gmail.com">
+       </div> 
+       
+      <div class="inputfield">
+        <label>Date of Birth </label> <input type = "date" class="input"/> <br><br>
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+	
+</body>
+</html>
